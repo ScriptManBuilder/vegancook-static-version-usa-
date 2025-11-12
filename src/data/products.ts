@@ -73,80 +73,80 @@ export const getProductVideo = (productId: number): string | undefined => {
 export const getProductVideos = (productId: number): string[] | undefined => {
   // Courses 1-4: 1 video each (basic courses get 5-minute versions for account access)
   if (productId === 1) {
-    return ["/videos/vid5min/1 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4"];
+    return ["/videos/vid5min/1 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4"];
   }
   if (productId === 2) {
-    return ["/videos/vid5min/2 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4"];
+    return ["/videos/vid5min/2 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4"];
   }
   if (productId === 3) {
-    return ["/videos/vid5min/3 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4"];
+    return ["/videos/vid5min/3 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4"];
   }
   if (productId === 4) {
-    return ["/videos/vid5min/4 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4"];
+    return ["/videos/vid5min/4 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4"];
   }
   
   // Courses 5-7: 3 videos each
   if (productId === 5) {
     return [
-      "/videos/vid5min/5 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/8 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/9 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4"
+      "/videos/vid5min/5 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/8 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/9 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4"
     ];
   }
   if (productId === 6) {
     return [
-      "/videos/vid5min/10 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/12 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/13 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4"
+      "/videos/vid5min/10 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/12 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/13 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4"
     ];
   }
   if (productId === 7) {
     return [
-      "/videos/vid5min/18 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/1 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/2 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4"
+      "/videos/vid5min/18 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/1 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/2 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4"
     ];
   }
   
   // Courses 8-10: 5 videos each
   if (productId === 8) {
     return [
-      "/videos/vid5min/3 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/4 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/5 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/8 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/9 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4"
+      "/videos/vid5min/3 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/4 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/5 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/8 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/9 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4"
     ];
   }
   if (productId === 9) {
     return [
-      "/videos/vid5min/10 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/12 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/13 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/18 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/1 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4"
+      "/videos/vid5min/10 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/12 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/13 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/18 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/1 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4"
     ];
   }
   if (productId === 10) {
     return [
-      "/videos/vid5min/2 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/3 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/4 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/5 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/8 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4"
+      "/videos/vid5min/2 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/3 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/4 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/5 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/8 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4"
     ];
   }
   
   // Course 11: 7 videos (premium)
   if (productId === 11) {
     return [
-      "/videos/vid5min/9 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/10 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/12 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/13 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/18 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/1 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4",
-      "/videos/vid5min/2 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min.mp4"
+      "/videos/vid5min/9 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/10 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/12 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/13 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/18 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/1 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4",
+      "/videos/vid5min/2 Vegan Holiday Meals - Cooking for Family and Friends Almond Tree_5min_compressed.mp4"
     ];
   }
   
