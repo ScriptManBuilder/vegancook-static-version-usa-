@@ -708,7 +708,7 @@ const Home: React.FC = () => {
             <InfoSubsection>
               <InfoSubtitle>24/7 Community Access</InfoSubtitle>
               <InfoText>
-                Connect with <InfoHighlight>thousands of vegan cooking learners worldwide </InfoHighlight> 
+                Connect with <InfoHighlight>hundreds of vegan cooking learners worldwide </InfoHighlight> 
                 through our exclusive community platform. Share recipes, get feedback, 
                 and collaborate on vegan cooking projects.
               </InfoText>
